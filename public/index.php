@@ -8,9 +8,6 @@ if (isset($_GET['p'])) {
     $p = 'home';
 }
 
-// Initialisation des objets
-$db = new App\Database('blog');
-
 ob_start();
 if ($p === 'home') {
     require '../pages/home.php';

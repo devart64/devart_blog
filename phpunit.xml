@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit colors="true">
+    <php>
+        <var name="DB-DSN" value="mysql:dbname=blog;host=localhost" />
+        <var name="DB-USER" value="root" />
+        <var name="DB-PASSWD" value="" />
+        <var name="DB-DBNAME" value="blog" />
+    </php>
+    <testsuite name="test driven developement">
+        <directory>./tests</directory>
+    </testsuite>
+</phpunit>
