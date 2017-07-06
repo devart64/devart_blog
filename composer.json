@@ -1,4 +1,5 @@
 {
+  "description": "part blog of devart site",
   "name": "devart/blog",
   "require-dev": {
     "phpunit/phpunit": "6.2.3"
