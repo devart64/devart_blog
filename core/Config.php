@@ -6,26 +6,27 @@
  * Time: 11:32
  */
 
-namespace App;
+namespace Core;
 
 class Config
 {
     private $settings =[];
     private static $_instance;
 
-    public function __construct()
-    {
-        $this->id = uniqid();
-        $this->settings = require dirname(__DIR__) . '/config/config.php';
-    }
 
-    public static function getInstance()
+
+    public static function getInstance($file)
     {
         if (null === self::$_instance)
         {
-            self::$_instance = new Config();
+            self::$_instance = new Config($file);
         }
         return self::$_instance;
+    }
+
+    public function __construct($file)
+    {
+        $this->settings = require($file);
     }
 
     public function get($key)
@@ -36,5 +37,4 @@ class Config
         }
         return $this->settings[$key];
     }
-
 }

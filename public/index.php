@@ -1,12 +1,10 @@
 <?php
+define('ROOT', dirname(__DIR__));
+require ROOT .'/app/App.php';
+App::load();
 
-session_start();
-require '../app/Autoloader.php';
-App\Autoloader::register();
 
-$app = App\App::getInstance();
-$app->title = "titre de test";
+$app = App::getInstance();
 
-$app2 = App\App::getInstance();
-echo $app2->title;
-
+$posts = $app->getTable('Posts');
+var_dump($posts->all());
