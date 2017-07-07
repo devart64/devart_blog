@@ -9,21 +9,16 @@ namespace App;
 
 class App
 {
+    public $title = "dév'art";
+    private static $_instance;
 
-    const DB_NAME = 'blog';
-    const DB_USER = 'root';
-    const DB_PASS = '';
-    const DB_HOST = 'localhost';
-
-    private static $database;
-
-    public static function getDb()
+    public static function getInstance()
     {
-        if (self::$database === null)
+        if (null === self::$_instance)
         {
-            self::$database = new Database(self::DB_NAME, self::DB_USER, self::DB_PASS, self::DB_HOST);
-
+            self::$_instance = new Config();
         }
-        return self::$database;
+        return self::$_instance;
     }
+
 }

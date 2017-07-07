@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysis>
+  <link href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5" rel="self" type="application/vnd.com.sensiolabs.insight+xml"/>
+  <link href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5/status" rel="status" type="application/vnd.com.sensiolabs.insight+xml"/>
+  <link href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d" rel="project" type="application/vnd.com.sensiolabs.insight+xml"/>
+  <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5" rel="self" type="text/html"/>
+  <status><![CDATA[finished]]></status>
+  <violations>
+    <violation severity="info" category="bugrisk" ignored="false">
+      <line>0</line>
+      <resource><![CDATA[composer.json]]></resource>
+      <title>The composer.json file should not raise warnings</title>
+      <message><![CDATA[No license specified, it is recommended to do so. For closed-source software you may use "proprietary" as license.]]></message>
+      <context/>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994558" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>27</line>
+      <resource><![CDATA[app/Autoloader.php]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="22" end-line="27"><![CDATA[            $class = str_replace(__NAMESPACE__ . '\\', '', $class);
+            $class = str_replace('\\', '/', $class);
+            require __DIR__ . '/' . $class .'.php';
+        }
+    }
+}]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994565" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>60</line>
+      <resource><![CDATA[app/Database.php]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="55" end-line="60"><![CDATA[            $datas = $req->fetchAll();
+        }
+
+        return $datas;
+    }
+}]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994549" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>15</line>
+      <resource><![CDATA[app/Table/Categorie.php]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="10" end-line="15"><![CDATA[    public function getURL()
+    {
+        return 'index.php?p=categorie&id=' . $this->id;
+    }
+
+}]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994547" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>21</line>
+      <resource><![CDATA[composer.json]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="16" end-line="21"><![CDATA[    }
+  },
+  "require": {
+
+  }
+}]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994562" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>9</line>
+      <resource><![CDATA[.idea/composerJson.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="4" end-line="9"><![CDATA[    <unboundedVersionInspectionSettings>
+      <excludedPackages />
+    </unboundedVersionInspectionSettings>
+    <customRepositories />
+  </component>
+</project>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994560" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>449</line>
+      <resource><![CDATA[.idea/dbnavigator.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="444" end-line="449"><![CDATA[    </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
+  </component>
+</project>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994548" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>8</line>
+      <resource><![CDATA[.idea/modules.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="3" end-line="8"><![CDATA[  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/blog.iml" filepath="$PROJECT_DIR$/.idea/blog.iml" />
+    </modules>
+  </component>
+</project>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994554" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>4</line>
+      <resource><![CDATA[.idea/php.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="1" end-line="4"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994546" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>6</line>
+      <resource><![CDATA[.idea/symfony2.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="1" end-line="6"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Symfony2PluginSettings">
+    <option name="pluginEnabled" value="true" />
+  </component>
+</project>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994553" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>6</line>
+      <resource><![CDATA[.idea/vcs.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="1" end-line="6"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994563" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>864</line>
+      <resource><![CDATA[.idea/workspace.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="859" end-line="864"><![CDATA[          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994550" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="codestyle" ignored="false">
+      <line>12</line>
+      <resource><![CDATA[phpunit.xml]]></resource>
+      <title>Text files should end with a newline character</title>
+      <message><![CDATA[This file ends with no newline character. It won't render properly on a terminal, and it's considered a bad practice. Add a simple line feed as the last character to fix it.]]></message>
+      <context start-line="7" end-line="12"><![CDATA[        <var name="DB-DBNAME" value="blog" />
+    </php>
+    <testsuite name="test driven developement">
+        <directory>./tests</directory>
+    </testsuite>
+</phpunit>]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994557" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="readability" ignored="false">
+      <line>12</line>
+      <resource><![CDATA[app/Autoloader.php]]></resource>
+      <title>Methods and properties visibility should always be explicitly defined</title>
+      <message><![CDATA[This method has no explicit visibility which may lead to maintenability issues. You should always declare a visibility for methods and properties.]]></message>
+      <context start-line="7" end-line="17"><![CDATA[class Autoloader
+{
+    /**
+     * Enregistre notre autoloader
+     */
+    static function register() {
+        spl_autoload_register([__CLASS__, 'autoload']);
+    }
+
+    /**
+     * Inclue le fichier correspondant à notre class]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994559" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="readability" ignored="false">
+      <line>20</line>
+      <resource><![CDATA[app/Autoloader.php]]></resource>
+      <title>Methods and properties visibility should always be explicitly defined</title>
+      <message><![CDATA[This method has no explicit visibility which may lead to maintenability issues. You should always declare a visibility for methods and properties.]]></message>
+      <context start-line="15" end-line="25"><![CDATA[
+    /**
+     * Inclue le fichier correspondant à notre class
+     * @param $class string Le nom de la class à charger
+     */
+    static function autoload($class) {
+        if (strpos($class, __NAMESPACE__ . '\\') === 0) {
+            $class = str_replace(__NAMESPACE__ . '\\', '', $class);
+            $class = str_replace('\\', '/', $class);
+            require __DIR__ . '/' . $class .'.php';
+        }]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994561" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="minor" category="deadcode" ignored="false">
+      <line>15</line>
+      <resource><![CDATA[app/Database.php]]></resource>
+      <title>Unused method, property, variable or parameter</title>
+      <message><![CDATA[This db_name attribute is declared but never used. You should remove it.]]></message>
+      <context start-line="10" end-line="20"><![CDATA[
+use \PDO;
+
+class Database
+{
+    private $db_name;
+    private $db_user;
+    private $db_pass;
+    private $db_host;
+    private $pdo;
+]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994556" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="minor" category="deadcode" ignored="false">
+      <line>16</line>
+      <resource><![CDATA[app/Database.php]]></resource>
+      <title>Unused method, property, variable or parameter</title>
+      <message><![CDATA[This db_user attribute is declared but never used. You should remove it.]]></message>
+      <context start-line="11" end-line="21"><![CDATA[use \PDO;
+
+class Database
+{
+    private $db_name;
+    private $db_user;
+    private $db_pass;
+    private $db_host;
+    private $pdo;
+
+    public function __construct($db_name, $db_user = 'root', $db_pass = '', $db_host = 'localhost')]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994566" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="minor" category="deadcode" ignored="false">
+      <line>17</line>
+      <resource><![CDATA[app/Database.php]]></resource>
+      <title>Unused method, property, variable or parameter</title>
+      <message><![CDATA[This db_pass attribute is declared but never used. You should remove it.]]></message>
+      <context start-line="12" end-line="22"><![CDATA[
+class Database
+{
+    private $db_name;
+    private $db_user;
+    private $db_pass;
+    private $db_host;
+    private $pdo;
+
+    public function __construct($db_name, $db_user = 'root', $db_pass = '', $db_host = 'localhost')
+    {]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994564" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="minor" category="deadcode" ignored="false">
+      <line>18</line>
+      <resource><![CDATA[app/Database.php]]></resource>
+      <title>Unused method, property, variable or parameter</title>
+      <message><![CDATA[This db_host attribute is declared but never used. You should remove it.]]></message>
+      <context start-line="13" end-line="23"><![CDATA[class Database
+{
+    private $db_name;
+    private $db_user;
+    private $db_pass;
+    private $db_host;
+    private $pdo;
+
+    public function __construct($db_name, $db_user = 'root', $db_pass = '', $db_host = 'localhost')
+    {
+        $this->db_name = $db_name;]]></context>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994552" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="performance" ignored="false">
+      <line>0</line>
+      <resource><![CDATA[.htaccess]]></resource>
+      <title>.htaccess should be avoided</title>
+      <message><![CDATA[A .htaccess file has been spotted. You should consider moving it to the server configuration to improve global performances.]]></message>
+      <context/>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994555" rel="self" type="text/html"/>
+    </violation>
+    <violation severity="info" category="security" ignored="false">
+      <line>0</line>
+      <resource><![CDATA[public/favicon.ico]]></resource>
+      <title>Default favicon should be changed</title>
+      <message><![CDATA[Default default HiDPI Symfony favicon found.
+             This reveals the backend engine of the application and makes it more vulnerable to attackers. Consider using a custom favicon instead - plus, your users will memorize your application more easily.]]></message>
+      <context/>
+      <link href="https://insight.sensiolabs.com/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/5?status=existing#534994551" rel="self" type="text/html"/>
+    </violation>
+  </violations>
+  <grades>
+    <entry><![CDATA[none]]></entry>
+    <entry><![CDATA[bronze]]></entry>
+    <entry><![CDATA[silver]]></entry>
+    <entry><![CDATA[gold]]></entry>
+    <entry><![CDATA[platinum]]></entry>
+  </grades>
+  <failed>false</failed>
+  <grade><![CDATA[silver]]></grade>
+  <next-grade><![CDATA[gold]]></next-grade>
+  <begin-at><![CDATA[2017-07-06T09:37:58+0200]]></begin-at>
+  <end-at><![CDATA[2017-07-06T09:38:18+0200]]></end-at>
+  <duration>3</duration>
+  <number>5</number>
+  <altered>false</altered>
+  <remediation-cost>7.5</remediation-cost>
+  <nb-violations>21</nb-violations>
+  <reference><![CDATA[a2447b9f8706d544e8b9fae126fc2a294fa54705]]></reference>
+  <launched-by><![CDATA[devart64]]></launched-by>
+  <configuration>
+    <ignored-branches>
+      <branch><![CDATA[gh-pages]]></branch>
+    </ignored-branches>
+    <pre-composer-script/>
+    <post-composer-script/>
+    <working-directory/>
+    <php-version/>
+    <php-ini/>
+    <commit-failure-conditions>
+      <branch><![CDATA[project.severity.critical > 0]]></branch>
+      <branch><![CDATA[project.severity.major > 0]]></branch>
+    </commit-failure-conditions>
+    <global-excluded-dirs>
+      <dir><![CDATA[vendor]]></dir>
+      <dir><![CDATA[vendors]]></dir>
+      <dir><![CDATA[test]]></dir>
+      <dir><![CDATA[tests]]></dir>
+      <dir><![CDATA[Tests]]></dir>
+      <dir><![CDATA[spec]]></dir>
+      <dir><![CDATA[features]]></dir>
+      <dir><![CDATA[Fixtures]]></dir>
+      <dir><![CDATA[DataFixtures]]></dir>
+      <dir><![CDATA[var]]></dir>
+    </global-excluded-dirs>
+    <excluded-patterns>
+      <pattern><![CDATA[app/check.php]]></pattern>
+      <pattern><![CDATA[app/SymfonyRequirements.php]]></pattern>
+      <pattern><![CDATA[web/config.php]]></pattern>
+      <pattern><![CDATA[web/app_*.php]]></pattern>
+    </excluded-patterns>
+    <patterns>
+      <file>
+        <pattern><![CDATA[*.php]]></pattern>
+        <pattern><![CDATA[*.twig]]></pattern>
+        <pattern><![CDATA[*.xml]]></pattern>
+        <pattern><![CDATA[*.yml]]></pattern>
+        <pattern><![CDATA[*.yaml]]></pattern>
+        <pattern><![CDATA[*.ini]]></pattern>
+        <pattern><![CDATA[*.dist]]></pattern>
+        <pattern><![CDATA[*.sql]]></pattern>
+        <pattern><![CDATA[*.md]]></pattern>
+        <pattern><![CDATA[*.rst]]></pattern>
+        <pattern><![CDATA[composer.*]]></pattern>
+        <pattern><![CDATA[.gitignore]]></pattern>
+        <pattern><![CDATA[LICENSE]]></pattern>
+        <pattern><![CDATA[README]]></pattern>
+        <pattern><![CDATA[Makefile]]></pattern>
+        <pattern><![CDATA[.htaccess]]></pattern>
+      </file>
+      <php>
+        <pattern><![CDATA[*.php]]></pattern>
+      </php>
+      <twig>
+        <pattern><![CDATA[*.twig]]></pattern>
+      </twig>
+    </patterns>
+    <rules/>
+    <parameters>
+      <parameter name="project_type">0</parameter>
+    </parameters>
+    <env/>
+  </configuration>
+  <previous-analyses-references>
+    <analysis-reference number="9">6c08c4a59278ba7f2e24670f88b75def42518325</analysis-reference>
+    <analysis-reference number="8">7f803794141e3e30b6625b90be92552b165530d6</analysis-reference>
+    <analysis-reference number="7">cc50952434b2dc96ab0b6198821d64dbfd6f6f07</analysis-reference>
+    <analysis-reference number="6">614e9aafae2408976ebdd757fe8e7e082628b157</analysis-reference>
+    <analysis-reference number="5">a2447b9f8706d544e8b9fae126fc2a294fa54705</analysis-reference>
+    <analysis-reference number="4">1016aa6c6c0eafe50678ac721d05db8d6fbcc0da</analysis-reference>
+    <analysis-reference number="3">206ca5779d46a95bb9165341c413026eb6156ef9</analysis-reference>
+    <analysis-reference number="2">6e840c2c9112add2cb71b788f84521e0ea060715</analysis-reference>
+    <analysis-reference number="1">35d5119b0815b822c088a2b0b8aafa7954d99d97</analysis-reference>
+  </previous-analyses-references>
+  <nb-violations-new>0</nb-violations-new>
+  <nb-violations-existing>21</nb-violations-existing>
+  <nb-violations-fixed>1</nb-violations-fixed>
+  <nb-violations-ignored>0</nb-violations-ignored>
+</analysis>

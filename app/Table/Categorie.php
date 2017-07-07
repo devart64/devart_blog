@@ -5,7 +5,7 @@ use App\App;
 
 class Categorie extends Table
 {
-
+    protected static $table = 'categories';
 
     public function getURL()
     {
