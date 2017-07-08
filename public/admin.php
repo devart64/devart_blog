@@ -14,13 +14,13 @@ if (isset($_GET['p']))
 ob_start();
 if ($page === 'home')
 {
-    require ROOT . '/pages/posts/home.php';
+    require ROOT . '/pages/admin/posts/home.php';
 } elseif ($page === 'posts.category')
 {
-    require ROOT . '/pages/posts/category.php';
+    require ROOT . '/pages/admin/posts/category.php';
 } elseif ($page === 'posts.show')
 {
-    require ROOT . '/pages/posts/show.php';
+    require ROOT . '/pages/admin/posts/show.php';
 }
 $content = ob_get_clean();
 require ROOT . '/pages/templates/default.php';
