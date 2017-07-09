@@ -3,6 +3,8 @@
   <component name="SensioLabsInsightAnalysisStorage">
     <option name="analysesList">
       <list>
+        <InsightAnalysis duration="2" href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/14" nbViolations="35" nextGrade="PLATINUM" number="14" reference="adfefe852277185a679687f6c66b821423234604" remediationCostForNextGrade="-1" status="finished" />
+        <InsightAnalysis duration="3" href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/13" nbViolations="41" nextGrade="BRONZE" number="13" reference="b68e6e1cfe91e00f8985e92c8fbee6827d25a97a" remediationCostForNextGrade="-1" status="finished" />
         <InsightAnalysis duration="3" href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/12" nbViolations="26" nextGrade="PLATINUM" number="12" reference="ad143facbea1355ecf19ac28028f7de2302c6e54" remediationCostForNextGrade="-1" status="finished" />
         <InsightAnalysis duration="2" href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/11" nbViolations="32" nextGrade="BRONZE" number="11" reference="8c56b42624eb796ac33e9bdb8f4d1eeb433ac37d" remediationCostForNextGrade="-1" status="finished" />
         <InsightAnalysis duration="4" href="https://insight.sensiolabs.com/api/projects/c76ceeea-70d3-4696-8e14-a334c83e1b9d/analyses/10" nbViolations="28" nextGrade="BRONZE" number="10" reference="b379978494625014963dc427e25ab0e3ef8dc33b" remediationCostForNextGrade="-1" status="finished" />
