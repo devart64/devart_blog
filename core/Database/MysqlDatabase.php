@@ -12,10 +12,6 @@ use \PDO;
 
 class MysqlDatabase extends Database
 {
-    private $db_name;
-    private $db_user;
-    private $db_pass;
-    private $db_host;
     private $pdo;
 
     public function __construct($db_name, $db_user = 'root', $db_pass = '', $db_host = 'localhost')
