@@ -20,7 +20,7 @@ class Table
 
     public function all()
     {
-        return $this->query(' SELECT * FROM ' . $this->table);
+        return $this->query(' SELECT * FROM ' {$this->table});
     }
 
     public function query($statement, $attributes = null, $one =false)
