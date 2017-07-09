@@ -61,10 +61,10 @@ class Form
      * @param array $options
      * @return string
      */
-    protected  function input($name, $label, $options = [])
+    protected  function input($name,$options = [])
     {
         $type = isset($options['type']) ? $options['type'] : 'text';
-        return $this->surround('<input type="' . $type . '" name="' . $name . '"               value= "' . $this->getValue($name) . '">'
+        return $this->surround('<input type="' . $type . '" name="' . $name . '" value= "' . $this->getValue($name) . '">'
         );
     }
 
